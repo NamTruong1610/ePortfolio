@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nam Truong | Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="nav-logo">Nam Truong</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#reflections">Reflections</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hi, I'm Nam Truong</h1>
+                <p>An international undergraduate student pursuing a Bachelor's degree in Software Engineering at the University of Technology Sydney. My career goal is to work as a software engineer, specializing in full-stack web development. I am eager to gain practical experience and contribute to projects that solve real-world problems.</p>
+                <a href="#projects" class="cta-button">View My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="content-section">
+            <h2>About Me</h2>
+            <p>I’m a fourth-year software engineering student with a strong interest in solving real-world problems through practical software solutions. I’m particularly driven by the challenge of designing, developing, and deploying systems that meet specific user needs while maintaining scalability and performance. I possess strong theoretical and technical foundations in data structures and front-end web design and aim to enhance my technical proficiency, teamwork, and communication skills through collaboration with industry professionals.</p>
+            <p>My recent internship experience in developing a production scheduling system for a furniture business deepened my interest in software’s potential to create tangible impact in operational contexts. It also reinforced the importance of collaboration, adaptability, and understanding end-user requirements. I remain curious, ambitious, and committed to continuous improvement, aiming to build practical, effective solutions that reflect both technical precision and real-world utility.</p>
+        </section>
+
+        <section id="skills" class="content-section">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Front-End</h3>
+                    <ul>
+                        <li>HTML, CSS & JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>ReactJS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Back-End</h3>
+                    <ul>
+                        <li>MongoDB</li>
+                        <li>PostgreSQL</li>
+                        <li>ExpressJS</li>
+                        <li>NodeJS</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <ul>
+                        <li>C++</li>
+                        <li>Java</li>
+                        <li>Python</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>UX/UI</h3>
+                    <ul>
+                        <li>Wireframing with Figma</li>
+                        <li>Flexbox & Grid layout</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3>Transferrable Skills</h3>
+                    <ul>
+                        <li>Teamwork</li>
+                        <li>Problem-solving</li>
+                        <li>Communication</li>
+                        <li>Adaptability</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="projects" class="content-section">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Production Scheduling Software for Small Businesses</h3>
+                    <p>A scalable and client-specific production scheduling solution for a furniture upholstery business, designed to improve task tracking and reduce bottlenecks. As the lead front-end developer, I translated business logic into a user-friendly interface.</p>
+                    <ul>
+                        <li>Collaborated with the client to gather system requirements through multiple stakeholder meetings.</li>
+                        <li>Focused on usability and UX by applying wireframing techniques, structured layouts, and form validation.</li>
+                        <li>Developed a dynamic job entry form and responsive job table using React.</li>
+                        <li>Integrated front-end components with RESTful APIs to ensure real-time data updates and seamless user interactions.</li>
+                    </ul>
+                    <a href="https://github.com/progkiryu/Brand-Furniture" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-card">
+                    <h3>Index Priority Queue Implementation</h3>
+                    <p>Developed an Index Priority Queue data structure in C++ as a template class to efficiently handle large or expensive-to-copy priorities.</p>
+                    <ul>
+                        <li>Implemented fundamental operations (push, pop, top) with logarithmic time complexity.</li>
+                        <li>Added advanced operations like 'changeKey', 'erase', and 'contains' for direct element access.</li>
+                        <li>Managed internal data using vectors and a binary heap to maintain heap properties and quick lookups.</li>
+                    </ul>
+                     <a href="https://github.com/NamTruong1610/Index-Priority-Queue" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-card">
+                    <h3>Shortest Path Verification with Bellman-Ford</h3>
+                    <p>Developed and implemented verification methods for shortest path algorithms on directed, weighted graphs, including support for negative edge weights.</p>
+                    <ul>
+                        <li>Created a templated Graph class to accommodate diverse data types.</li>
+                        <li>Designed algorithms to verify the correctness of shortest path trees.</li>
+                        <li>Implemented a validation method inspired by the Bellman-Ford algorithm to confirm optimality via edge relaxation.</li>
+                    </ul>
+                    <a href="https://github.com/NamTruong1610/Check-Shortest-Path" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                </div>
+                <div class="project-card">
+                    <h3>Doubly Linked List Implementation</h3>
+                    <p>A comprehensive implementation of a Doubly Linked List in C++ with a focus on efficient memory management and core list functionalities.</p>
+                    <ul>
+                        <li>Developed core functionality including constructors, destructor, copy constructor, and assignment operator.</li>
+                        <li>Provided constant-time operations for insertion, deletion, and element access.</li>
+                        <li>Manually handled dynamic memory allocation and deallocation without using standard library containers.</li>
+                    </ul>
+                    <a href="https://github.com/NamTruong1610/Linked-List" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </section>
+        
+        <section id="education" class="content-section">
+            <h2>Education & Coursework</h2>
+            <div class="education-entry">
+                <h3>Bachelor of Engineering (Honours) (Software)</h3>
+                <p><em>University of Technology Sydney • Sydney, NSW • 2024 - 2026</em></p>
+                <h4>Relevant Coursework:</h4>
+                <div class="coursework">
+                    <p><strong>Database Fundamentals (31271):</strong> Implemented and optimized database structures using PostgreSQL. Executed complex SQL queries including JOINs, and utilized normalization to reduce redundancy and enhance data integrity.</p>
+                    <p><strong>Data Structures and Algorithms (31251):</strong> Developed linked lists, Index Priority Queues, and implemented shortest path algorithms including Bellman-Ford and multiple variations of Dijkstra's algorithm to evaluate performance.</p>
+                </div>
+            </div>
+            <div class="education-entry">
+                <h3>Bachelor of Computer Science</h3>
+                <p><em>Ho Chi Minh University of Technology • Ho Chi Minh City, Vietnam • 2021 - 2023</em></p>
+            </div>
+        </section>
+        
+        <section id="reflections" class="content-section">
+            <h2>Professional Reflections</h2>
+            <div class="reflections-grid">
+                <div class="reflection-card">
+                    <h3>Embracing the Process: Lessons in Project Scoping</h3>
+                    <p>During an internship project, my team and I initially felt unproductive during the early phases, which were heavy on documentation and client meetings rather than coding. My initial belief was that productivity is measured by immediate feature development. However, I now understand that for projects with non-technical clients and vague requirements, this initial discovery phase is the most crucial step. This foundational work is essential to accurately translate a client's needs into a functional solution. In the future, I will approach this phase with more patience, recognizing it as vital for ensuring the final product aligns with client requirements.</p>
+                </div>
+                <div class="reflection-card">
+                    <h3>Finding My Voice: Growth in Client Communication</h3>
+                    <p>A significant personal challenge I faced was my approach to client communication. As an international student, I was initially hesitant to speak in client meetings, often relying on teammates to convey my ideas. While this was effective for the project, I realized my silence was detrimental to my personal growth. I learned that good communication is not just about perfect expression, but about empathy and transparency. Moving forward, I am committed to stepping out of my comfort zone and actively participating in client discussions, understanding this skill is fundamental to my future career as a competent and well-rounded engineer.</p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="content-section">
+            <h2>Contact Me</h2>
+            <p>I am always open to discussing new opportunities. Feel free to get in touch.</p>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> Sydney, New South Wales, Australia</p>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:HaiNam.Truong@student.uts.edu.au">HaiNam.Truong@student.uts.edu.au</a></p>
+                <p><i class="fas fa-phone"></i> 0493 941 605</p>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/hai-nam-truong-a44a66335" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Nam Truong. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
