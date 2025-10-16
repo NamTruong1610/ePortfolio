@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,15 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
 
     <header>
         <nav>
             <div class="nav-logo">Nam Truong</div>
             <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
+                <li><a href="#home">Landing Page</a></li>
+                <li><a href="#about">Resume & Cover Letter</a></li>
                 <li><a href="#reflections">Reflections</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
@@ -26,90 +27,242 @@
 
         <section id="home" class="hero">
             <div class="hero-content">
+                <img src="/ePortfolio/z4919188967965_a696612234f0125e2c4fd77bc35af0db.jpg">
                 <h1>Hi, I'm Nam Truong</h1>
-                <p>An international undergraduate student pursuing a Bachelor's degree in Software Engineering at the University of Technology Sydney. My career goal is to work as a software engineer, specializing in full-stack web development. I am eager to gain practical experience and contribute to projects that solve real-world problems.</p>
-                <a href="#projects" class="cta-button">View My Work</a>
+                <p>“As a fourth-year software engineering student, I am passionate about developing practical and
+                    scalable software solutions that address real-world challenges. My work spans designing responsive
+                    web applications, building efficient backend systems, and integrating data-driven features to
+                    improve user experience and operational performance.</p>
+
+                <p>With experience in technologies such as software development stacks such as MERN and programming
+                    languages like C++, Java and Python, I enjoy transforming complex requirements into reliable,
+                    user-focused solutions. I thrive in collaborative environments where design, functionality, and
+                    performance intersect, and I take pride in building systems that are both effective and sustainable.
+                </p>
+
+                <p>My goal is to create software that drives efficiency, empowers users, and delivers measurable impact
+                    - bridging the gap between technical innovation and everyday usability.”</p>
             </div>
         </section>
 
         <section id="about" class="content-section">
-            <h2>About Me</h2>
-            <p>I’m a fourth-year software engineering student with a strong interest in solving real-world problems through practical software solutions. I’m particularly driven by the challenge of designing, developing, and deploying systems that meet specific user needs while maintaining scalability and performance. I possess strong theoretical and technical foundations in data structures and front-end web design and aim to enhance my technical proficiency, teamwork, and communication skills through collaboration with industry professionals.</p>
-            <p>My recent internship experience in developing a production scheduling system for a furniture business deepened my interest in software’s potential to create tangible impact in operational contexts. It also reinforced the importance of collaboration, adaptability, and understanding end-user requirements. I remain curious, ambitious, and committed to continuous improvement, aiming to build practical, effective solutions that reflect both technical precision and real-world utility.</p>
+            <h2>Resume & Cover Letter</h2>
+
+            <div class="resume-cover-letter-container">
+                <a href="/ePortfolio/Nam-Truongs-Resume.pdf" target="_blank" class="cta-button"
+                    id="downloadResumeBtn">Download Resume</a>
+                <a href="/ePortfolio/Nam-Truong-Cover-Letter.pdf" target="_blank" class="cta-button"
+                    id="downloadCoverLetterBtn">Download Cover Letter</a>
+            </div>
+
+
         </section>
 
-        <section id="projects" class="content-section">
-            <h2>Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <h3>Production Scheduling Software for Small Businesses</h3>
-                    <p>A scalable and client-specific production scheduling solution for a furniture upholstery business, designed to improve task tracking and reduce bottlenecks. As the lead front-end developer, I translated business logic into a user-friendly interface.</p>
-                    <ul>
-                        <li>Collaborated with the client to gather system requirements through multiple stakeholder meetings.</li>
-                        <li>Focused on usability and UX by applying wireframing techniques, structured layouts, and form validation.</li>
-                        <li>Developed a dynamic job entry form and responsive job table using React.</li>
-                        <li>Integrated front-end components with RESTful APIs to ensure real-time data updates and seamless user interactions.</li>
-                    </ul>
-                    <a href="https://github.com/progkiryu/Brand-Furniture" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
-                </div>
-                <div class="project-card">
-                    <h3>Index Priority Queue Implementation</h3>
-                    <p>Developed an Index Priority Queue data structure in C++ as a template class to efficiently handle large or expensive-to-copy priorities.</p>
-                    <ul>
-                        <li>Implemented fundamental operations (push, pop, top) with logarithmic time complexity.</li>
-                        <li>Added advanced operations like 'changeKey', 'erase', and 'contains' for direct element access.</li>
-                        <li>Managed internal data using vectors and a binary heap to maintain heap properties and quick lookups.</li>
-                    </ul>
-                     <a href="https://github.com/NamTruong1610/Index-Priority-Queue" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
-                </div>
-                <div class="project-card">
-                    <h3>Shortest Path Verification with Bellman-Ford</h3>
-                    <p>Developed and implemented verification methods for shortest path algorithms on directed, weighted graphs, including support for negative edge weights.</p>
-                    <ul>
-                        <li>Created a templated Graph class to accommodate diverse data types.</li>
-                        <li>Designed algorithms to verify the correctness of shortest path trees.</li>
-                        <li>Implemented a validation method inspired by the Bellman-Ford algorithm to confirm optimality via edge relaxation.</li>
-                    </ul>
-                    <a href="https://github.com/NamTruong1610/Check-Shortest-Path" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
-                </div>
-                <div class="project-card">
-                    <h3>Doubly Linked List Implementation</h3>
-                    <p>A comprehensive implementation of a Doubly Linked List in C++ with a focus on efficient memory management and core list functionalities.</p>
-                    <ul>
-                        <li>Developed core functionality including constructors, destructor, copy constructor, and assignment operator.</li>
-                        <li>Provided constant-time operations for insertion, deletion, and element access.</li>
-                        <li>Manually handled dynamic memory allocation and deallocation without using standard library containers.</li>
-                    </ul>
-                    <a href="https://github.com/NamTruong1610/Linked-List" target="_blank" class="project-link">View on GitHub <i class="fab fa-github"></i></a>
-                </div>
-            </div>
-        </section>
-        
-        
+
+
         <section id="reflections" class="content-section">
             <h2>Professional Reflections</h2>
             <div class="reflections-grid">
+
                 <div class="reflection-card">
-                    <h3>Embracing the Process: Lessons in Project Scoping</h3>
-                    <p>During an internship project, my team and I initially felt unproductive during the early phases, which were heavy on documentation and client meetings rather than coding. My initial belief was that productivity is measured by immediate feature development. However, I now understand that for projects with non-technical clients and vague requirements, this initial discovery phase is the most crucial step. This foundational work is essential to accurately translate a client's needs into a functional solution. In the future, I will approach this phase with more patience, recognizing it as vital for ensuring the final product aligns with client requirements.</p>
+                    <h3>Reflection 1: Apply principles of sustainability to create viable systems (A)</h3>
+                    <p>During the initial phase of my internship with UTS Optik Consultancy, my team was tasked with
+                        developing a production scheduling system for a small furniture upholstery business. Our early
+                        weeks focused heavily on documentation, client consultations, and researching suitable
+                        technologies. At first, I felt frustrated by the lack of immediate coding progress, as I
+                        perceived productivity purely in terms of development output. As an ambitious software
+                        engineering student equipped with a technical foundation in data structures and front-end
+                        design, my natural inclination was to immediately jump into the React development environment to
+                        deliver features.</p>
+                    <br/>
+                    <p>However, this documentation-heavy phase proved to be a critical exercise in sustainable system
+                        design, making sure that our solution would remain adaptable, maintainable, and aligned with the
+                        client’s long-term operational needs. The client’s requirements were initially vague, stemming
+                        from a business unfamiliar with software development. We realized that rushing to code would
+                        have resulted in an inflexible, unsustainable system built upon a foundation of assumption
+                        rather than confirmed need. The true challenge lay in translating the client's operational pain
+                        points—such as inefficient manual job tracking—into defined, measurable, and enduring technical
+                        specifications. This rigorous, collaborative requirements gathering, conducted through multiple
+                        client meetings, became the essential precursor to creating a resilient system, shifting my
+                        definition of productivity from lines of code to validated system architecture.</p>
+                    <br/>
+                    <p>The challenge stemmed from unclear requirements and a non-technical client base, which initially
+                        made the project direction ambiguous. Yet, this uncertainty became a valuable lesson in what
+                        Elkington (1997) defines through the "“triple bottom line”", balancing social, environmental,
+                        and economic sustainability. In our context, this principle was applied across several
+                        dimensions of the software's life cycle. Economically, we had to ensure the system provided a
+                        net benefit over manual processes, justifying the investment. Socially, we had to maximize
+                        usability for the non-technical staff. Environmentally, the system needed to be efficient in its
+                        resource use and adaptable to future technological changes to avoid obsolescence. By
+                        prioritizing user understanding, process efficiency, and "system scalability"—demonstrated
+                        through the successful application of "UX/UI wire-framing techniques" to streamline the job
+                        creation workflow—we laid the groundwork for a viable and lasting solution rather than a
+                        short-term software fix. This experience reinforced that sustainability in software engineering
+                        extends beyond environmental factors; it encompasses usability, maintainability, and long-term
+                        value creation (Penzenstadler et al., 2014).</p>
+                    <br/>
+                    <p>Furthermore, the choice of the "technology stack" was a direct application of sustainability
+                        principles. We opted for "React" and "NodeJS" for the front and back-ends, coupled with
+                        "PostgreSQL" for the database. This decision was driven by the economic and social
+                        sustainability of the platform. Using widely adopted, open-source technologies ensures low-cost
+                        maintenance and broad community support, minimizing "vendor lock-in" and reducing the client’s
+                        long-term operational risk. My work in developing the front-end involved building modular
+                        components for the job entry form and a responsive job table. This "modularity" is a key
+                        maintainability feature, ensuring that future updates, bug fixes, or new feature
+                        integrations—such as adding a field for a new material type—can be accomplished quickly and
+                        locally without destabilizing the entire system. This is technical sustainability in practice:
+                        the system's ability to evolve without extensive, costly rework.</p>
+                    <br/>
+                    <p>Professionally, this experience reshaped my understanding of what truly constitutes sustainable
+                        engineering practice. The extensive documentation and requirement-gathering phase was
+                        fundamental to ensuring system resilience and client satisfaction. It forced me to use tools
+                        like "Figma" to iterate on design, effectively treating the user interface as a foundational
+                        requirement rather than a superficial feature. As Geissdoerfer et al. (2017) argue,
+                        sustainability-driven design requires a "circular mindset", where systems are built for
+                        continuous improvement and adaptability. This means moving beyond the linear 'build-and-deliver'
+                        model to one where the system's longevity and adaptability are built-in features. In this light,
+                        our initial focus on stakeholder engagement, applying wire-framing to the UX, and choosing a
+                        scalable architecture directly supported the principles of sustainable system development. The
+                        integration of front-end components with "RESTful APIs" was done not just for functionality,
+                        but to ensure that the system's data layer remained decoupled and easily transferable, which is
+                        vital for long-term viability.</p>
+                    <br/>
+                    <p>Looking forward, I intend to embed sustainability considerations at every stage of the software
+                        lifecycle, from requirement analysis to deployment, by evaluating long-term maintainability,
+                        resource efficiency, and user adaptability. This includes adopting formal practices to mitigate
+                        future risks, such as implementing "detailed technical debt logging" and creating
+                        comprehensive "non-technical maintenance handover guides" for the client. This approach
+                        elevates the engineering process from mere problem-solving to responsible, holistic system
+                        creation. This commitment to designing enduring, viable, and responsible systems not only aligns
+                        with Engineers Australia’s (2017) expectations for professional competence but also ensures that
+                        the solutions I help design remain viable, responsible, and future-ready, truly bridging the gap
+                        between technical innovation and measurable, long-term impact.</p>
                 </div>
+
                 <div class="reflection-card">
-                    <h3>Finding My Voice: Growth in Client Communication</h3>
-                    <p>A significant personal challenge I faced was my approach to client communication. As an international student, I was initially hesitant to speak in client meetings, often relying on teammates to convey my ideas. While this was effective for the project, I realized my silence was detrimental to my personal growth. I learned that good communication is not just about perfect expression, but about empathy and transparency. Moving forward, I am committed to stepping out of my comfort zone and actively participating in client discussions, understanding this skill is fundamental to my future career as a competent and well-rounded engineer.</p>
+                    <h3>Reflection 2: Professional Practice within intercultural and global contexts (F)</h3>
+                    <p>The development of the custom inventory management system for a local furniture upholstery
+                        business was a significant real-world test of my professional practice within an intercultural
+                        and global context. As a Vietnamese international student and software engineer, I was part of a
+                        project team composed entirely of other Australian software engineering students. Our technical
+                        domain was shared, yet our cultural and professional communication backgrounds were distinct,
+                        and our client had virtually no software or tech knowledge.</p>
+                    <br />
+                    <p>Initially, a palpable communication gap existed, not just between the team and the client, but
+                        also within the team itself. My Vietnamese cultural upbringing often emphasizes indirect
+                        communication and deference to group harmony, which, when combined with my initial shyness in a
+                        new environment, meant I was initially reserved and hesitant to voice confusion or contribute
+                        assertively. This led to an environment where we didn't talk much, and critical clarifications
+                        were sometimes delayed, hindering the initial progress of the software design, particularly in
+                        translating the client's business needs into technical specifications.</p>
+                    <br />
+                    <p>The turning point came when my confusion over a specific user story related to fabric inventory
+                        tracking became too significant to ignore. I took the initiative to ask detailed, clarifying
+                        questions, laying out the gap in my understanding to the team. This single act had a
+                        surprisingly positive effect. By modeling vulnerability and a sincere desire for clarity, I
+                        implicitly gave permission for others to do the same. My teammates quickly followed suit,
+                        admitting their own uncertainties on other project aspects. This shift unlocked a much more
+                        open, inquisitive, and collaborative dynamic. We began to gel well, realizing that our shared
+                        engineering discipline provided a common language, but our different cultural approaches
+                        required mutual effort to bridge.</p>
+                    <br />
+                    <p>This incident was significant because it underscored the principle that proactive communication,
+                        even when challenging or uncomfortable, is an indispensable catalyst for effective global
+                        collaboration. It demonstrated the necessity of establishing a "psychologically safe"
+                        environment, a concept highlighted in organizational behaviour research (Edmondson, 1999), where
+                        team members feel safe to speak up without fear of embarrassment or punishment. </p>
+                    <br />
+                    <p>While internal team communication improved, I recognize a major shortfall in my engagement with
+                        the client. The client, an Australian-run furniture upholstery business, was entirely unfamiliar
+                        with software development. Based on my teammates' discussions about their past experience
+                        working in retail, I incorrectly deferred all client communication to them. My reasoning was
+                        that their cultural background and prior retail experience would make them better equipped to
+                        understand and translate the client's business language and cultural nuances.</p>
+                    <br />
+                    <p>This decision, though well-intentioned, was a critical missed opportunity. By standing back, I
+                        missed the chance to actively learn and practice cross-cultural communication skills in a
+                        professional context. Effective communication with non-technical stakeholders requires
+                        translating complex ideas into simple business terms and adapting to different professional
+                        communication styles (e.g., direct versus contextual). In essence, I allowed my cultural
+                        deference and initial fear of miscommunication to override the need for practical skill
+                        development.</p>
+                    <br />
+                    <p>Looking back, the experience provided invaluable lessons in both cross-cultural and
+                        cross-disciplinary professional practice.</p>
+                    <br />
+                    <p>If I were to approach this again, I would proactively seek to lead or co-lead client discussions
+                        on specific, well-defined technical features, such as data input or reporting interfaces. This
+                        would force me to exit my comfort zone, directly developing the communication skills I avoided.
+                    </p>
+                    <br />
+                    <p>Furthermore, my positive experience with my Australian teammates reinforced the idea that
+                        learning about other cultures and communication styles is not merely a formality but a
+                        fundamental tool for success. It helped me understand that a more direct and informal approach
+                        can facilitate quicker, clearer consensus, a style I now consciously aim to integrate while
+                        retaining the politeness valued in my own culture. This insight aligns with research on Cultural
+                        Intelligence (CQ), which posits that the capacity to function effectively across national,
+                        ethnic, and organizational cultures is a critical predictor of success in global work
+                        environments (Ang & Van Dyne, 2015).</p>
+                    <br />
+                    <p>Going forward, I aim to strengthen my intercultural competence by applying structured frameworks
+                        in global projects and by seeking regular feedback on my communication approach from diverse
+                        team members. I will actively work to understand the cultural dimensions that impact
+                        professional settings, for example, the concept of low-context versus high-context cultures
+                        (Hall, 1976), recognizing that Australian professional contexts are generally lower-context,
+                        requiring more explicit verbal communication than the higher-context culture I am used to. This
+                        conscious application of theory will help me transition from simply reacting to cultural
+                        differences to strategically adapting to them, ensuring that I leverage diversity to build
+                        meaningful relationships and work effectively together.</p>
                 </div>
             </div>
+
+            <div class="references-section" style="margin-top: 50px;">
+                <h3 class="references-heading">References</h3>
+                <p class="reference-entry">
+                    Ang, S., & Van Dyne, L. (Eds.). (2015). <em>Handbook of Cultural Intelligence: Theory, Measurement,
+                        and Applications</em>. M. E. Sharpe.
+                </p>
+                <p class="reference-entry">
+                    Edmondson, A. C. (1999). <em>Psychological Safety and Learning Behavior in Work Teams</em>.
+                    Administrative Science Quarterly, 44(2), 350–383.
+                </p>
+                <p class="reference-entry">
+                    Elkington, J. (1997). <em>Cannibals with Forks: The Triple Bottom Line of 21st Century
+                        Business</em>. Capstone.
+                </p>
+                <p class="reference-entry">
+                    Engineers Australia. (2017). <em>Stage 1 Competency Standards for Professional Engineers (Table
+                        3)</em>.
+                    https://www.engineersaustralia.org.au/sites/default/files/resource-files/2017-03/Stage%201%20Competency%20Standards.pdf
+                </p>
+                <p class="reference-entry">
+                    Geissdoerfer, M., Savaget, P., Bocken, N. M. P., & Hultink, E. J. (2017). <em>The Circular Economy –
+                        A new sustainability paradigm?</em> Journal of Cleaner Production, 143, 757–768.
+                    https://doi.org/10.1016/j.jclepro.2016.12.048
+                </p>
+                <p class="reference-entry">
+                    Hall, E. T. (1976). <em>Beyond Culture</em>. Anchor Books.
+                </p>
+                <p class="reference-entry">
+                    Penzenstadler, B., Raturi, A., Richardson, D., & Calero, C. (2014). <em>Systematic Mapping Study on
+                        Software Engineering for Sustainability (SE4S)</em>. Proceedings of the 18th International
+                    Conference on Evaluation and Assessment in Software Engineering (EASE’14), 1–14.
+                </p>
+            </div>
         </section>
-        
+
         <section id="contact" class="content-section">
             <h2>Contact Me</h2>
             <p>I am always open to discussing new opportunities. Feel free to get in touch.</p>
             <div class="contact-info">
                 <p><i class="fas fa-map-marker-alt"></i> Sydney, New South Wales, Australia</p>
-                <p><i class="fas fa-envelope"></i> <a href="mailto:HaiNam.Truong@student.uts.edu.au">HaiNam.Truong@student.uts.edu.au</a></p>
+                <p><i class="fas fa-envelope"></i> <a
+                        href="mailto:HaiNam.Truong@student.uts.edu.au">HaiNam.Truong@student.uts.edu.au</a></p>
                 <p><i class="fas fa-phone"></i> 0493 941 605</p>
             </div>
             <div class="social-links">
-                <a href="https://www.linkedin.com/in/hai-nam-truong-a44a66335" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://www.linkedin.com/in/hai-nam-truong-a44a66335" target="_blank"><i
+                        class="fab fa-linkedin"></i> LinkedIn</a>
             </div>
         </section>
 
@@ -119,5 +272,17 @@
         <p>&copy; 2025 Nam Truong. All rights reserved.</p>
     </footer>
 
+    <script>
+        document.getElementById("downloadResumeBtn").addEventListener("click", () => {
+            const url = "Nam-Truongs-Resume.pdf";
+            window.open(url, "_blank"); // Opens in new tab
+        });
+        document.getElementById("downloadCoverLetterBtn").addEventListener("click", () => {
+            const url = "Nam-Truong-Cover-Letter.pdf";
+            window.open(url, "_blank"); // Opens in new tab
+        });
+    </script>
+
 </body>
+
 </html>

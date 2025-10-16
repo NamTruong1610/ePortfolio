@@ -115,6 +115,8 @@ nav {
 /* General Section Styling */
 .content-section {
     padding: 6rem 10%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content-section:nth-child(odd) {
@@ -349,4 +351,55 @@ footer {
     .projects-grid {
         grid-template-columns: 1fr;
     }
+}
+
+img {
+    display: block;
+    width: 30%;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.resume-cover-letter-container {
+    display: flex;
+    justify-content: center;
+}
+
+.resume-cover-letter-container a{
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.references-section {
+    /* Use the existing inline style margin-top: 50px */
+    max-width: 900px; /* Optional: Keep references contained like other content */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.references-section h3 {
+    font-size: 1.5rem;
+    color: var(--dark-color);
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    text-align: left; /* Align title left within the section */
+}
+
+.reference-entry {
+    /* Hanging Indent Style */
+    padding-left: 2em; /* Pushes text block right */
+    text-indent: -2em; /* Pulls first line left by the same amount */
+    margin-bottom: 12px; /* Space between entries */
+    font-size: 0.95rem;
+    line-height: 1.6;
+    color: var(--text-color);
+}
+
+.reference-entry em {
+    /* Emphasis style for titles in the reference */
+    color: #444; 
+    font-weight: 500; 
 }
